@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}About me{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="about-section">
+
+    <div class="img-container">
+        <img id="about-img" src="{% static './img/head shot.JPG' %}" alt="">
+
+    </div>
+
+    <div class="description-container center">
+
+        <h1>My role as a developer</h1>
+        <div class="center" style="display: flex; flex-direction: column;">
+            <h2>Everald Mark Mckie I</h2>
+        </div>
+
+        <p>
+            
+            Hello there! I'm a budding coder on a journey of self-expression through the language of code. In my digital realm, my portfolio stands as a canvas where my ideas come to life. As a newcomer to the coding universe, I'm driven by an uncontainable eagerness to share my creations with the world.<br><br>
+
+            What sets me apart is not just my lines of code but the genuine joy I find in connecting with people. I'm not your average coder—I'm someone who believes that laughter is a universal language. I see coding not just as a technical skill but as a means to bring smiles and joy to those who encounter my work.<br><br>
+
+            In my world, success is not just about lines of flawless code but about crafting experiences that resonate. I thrive on the satisfaction of others, and my code reflects a commitment to making a positive impact. Whether it's through an elegantly designed website or a cleverly coded application, my goal is to create moments of delight and connection.<br><br>
+
+            So, step into my digital space, explore my portfolio, and let's embark on a journey where the language of code meets the warmth of human connection. Together, let's bring a touch of joy to the world and redefine success as a fusion of technical brilliance and genuine human connection.<br><br>
+
+            Marky Mark out!<br><br>
+
+        </p>
+       
+
+        <div class="skills-list center">
+            <h2>Skills</h2>
+
+            <div class="skills center">
+                <label>Python</label>
+                <label>API</label>
+                <label>Flask</label>
+                <label>Django</label>
+                <label>Algorithms</label>
+                <label>JQuery</label>
+                <label>Javascript</label>
+                <label>HTML</label>
+                <label>CSS</label>
+                <label>Patience with Glenda</label>  
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}

@@ -1,0 +1,64 @@
+/*variables*/
+
+:root {
+    --primary-color: #af9fff;
+    --primary-color-100: #EAE5FF;
+    --primary-color-300: #7F66FF;
+
+    --secondary-color: #025834;
+    --secondary-color-600: #04C876;
+    --secondary-color-900: #01321E;
+
+    --neutral-color: #E0E0E0;
+
+    --background-color: #1B1B1B;
+
+    --surface-color: #252525;
+
+    --lobster-font: 'lobster', sans-serif;
+    --sans-font: 'DM Sans', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 14px;
+    background-color: var(--background-color);
+}
+
+* {
+    font-family: var(--sans-font);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*Text Style*/
+h1 {
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-family: var(--lobster-font);
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+    font-size: 1.8rem;
+}
+
+p {
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+}
